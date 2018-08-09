@@ -1,0 +1,8 @@
+{
+  "code": 200,
+  "msg" :"成功",
+  "data" :{
+    "expire":7200,
+    "token":"9mzdDZXu3dENdFZQurfg0Vz8slgSgvvOAUebNFzyzcpQ5EnbxbF+hfG9DQkpUVQdh4p6HbQcAiz5RmuBAja1JJGgIdJI"
+  }
+}

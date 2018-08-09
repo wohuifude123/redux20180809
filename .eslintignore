@@ -1,0 +1,8 @@
+# 忽略文件列表
+# /node_modules/* and /bower_components/* ignored by default
+src/vender/*
+src/pages/video*
+
+webpack.dev.js
+webpack.common.js
+webpack.prod.js

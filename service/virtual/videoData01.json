@@ -1,0 +1,230 @@
+{
+  "code": 0,
+  "msg": "success",
+  "video": [
+    {
+      "checkType": "政治",
+      "timeSlice": [
+        {
+          "start":"1:00",
+          "end":"3:00"
+        },
+        {
+          "start":"5:00",
+          "end":"7:00"
+        },
+        {
+          "start":"8:00",
+          "end":"9:00"
+        }
+      ]
+    },
+    {
+      "checkType": "暴力",
+      "timeSlice": [
+        {
+          "start":"2:00",
+          "end":"3:00"
+        },
+        {
+          "start":"5:00",
+          "end":"7:00"
+        },
+        {
+          "start":"8:00",
+          "end":"9:00"
+        }
+      ]
+    },
+    {
+      "checkType": "色情",
+      "timeSlice": [
+        {
+          "start":"1:00",
+          "end":"3:00"
+        },
+        {
+          "start":"5:00",
+          "end":"7:00"
+        },
+        {
+          "start":"8:00",
+          "end":"9:00"
+        }
+      ]
+    }
+  ],
+  "checkResults": {
+    "sex": 1,
+    "bloody": 0,
+    "vulgar": 1,
+    "violate": 0,
+    "politics": 1,
+    "ohter": 1
+  },
+
+  "checkTags": [
+    {
+      "name": "1:00-1:30",
+      "classification": [
+        {
+          "type": "色情",
+          "percentage": 97.6
+        },
+        {
+          "type": "暴力",
+          "percentage": 97.6
+        },
+        {
+          "type": "政治",
+          "percentage": 97.6
+        }
+      ]
+    },
+    {
+      "name": "2:00-2:30",
+      "classification": [
+        {
+          "type": "色情",
+          "percentage": 97.6
+        },
+        {
+          "type": "暴力",
+          "percentage": 97.6
+        },
+        {
+          "type": "政治",
+          "percentage": 97.6
+        }
+      ]
+    },
+    {
+      "name": "3:00-3:30",
+      "classification": [
+        {
+          "type": "色情",
+          "percentage": 97.6
+        },
+        {
+          "type": "暴力",
+          "percentage": 97.6
+        },
+        {
+          "type": "政治",
+          "percentage": 97.6
+        }
+      ]
+    }
+  ],
+  "identifyResults": [
+    {
+      "name": "1:00-1:30",
+      "classification": [
+        {
+          "type": "色情",
+          "percentage": 97.6
+        },
+        {
+          "type": "暴力",
+          "percentage": 97.6
+        },
+        {
+          "type": "政治",
+          "percentage": 97.6
+        }
+      ]
+    },
+    {
+      "name": "2:00-2:30",
+      "classification": [
+        {
+          "type": "色情",
+          "percentage": 97.6
+        },
+        {
+          "type": "暴力",
+          "percentage": 97.6
+        },
+        {
+          "type": "政治",
+          "percentage": 97.6
+        }
+      ]
+    },
+    {
+      "name": "3:00-3:30",
+      "classification": [
+        {
+          "type": "色情",
+          "percentage": 97.6
+        },
+        {
+          "type": "暴力",
+          "percentage": 97.6
+        },
+        {
+          "type": "政治",
+          "percentage": 97.6
+        }
+      ]
+    }
+  ],
+  "taskList": [
+    {
+      "name": "空上",
+      "flag": 0,
+      "url": "www.baidu.com",
+      "id": "09126"
+    },
+    {
+      "name": "空上",
+      "flag": 0,
+      "url": "www.baidu.com",
+      "id": "09127"
+    },
+    {
+      "name": "空上",
+      "flag": 0,
+      "url": "www.baidu.com",
+      "id": "09128"
+    },
+    {
+      "name": "空上",
+      "flag": 1,
+      "url": "www.baidu.com",
+      "id": "09129"
+    },
+    {
+      "name": "空上",
+      "flag": 1,
+      "url": "www.baidu.com",
+      "id": "09130"
+    }
+  ],
+  "evidences": [
+    {
+      "tag": 1,
+      "url": "www.baidu.com"
+    },
+    {
+      "tag": 1,
+      "url": "www.baidu.com"
+    },
+    {
+      "tag": 2,
+      "url": "www.baidu.com"
+    },
+    {
+      "tag": 3,
+      "url": "www.baidu.com"
+    },
+    {
+      "tag": 4,
+      "url": "www.baidu.com"
+    },
+    {
+      "tag": 5,
+      "url": "www.baidu.com"
+    }
+  ]
+}

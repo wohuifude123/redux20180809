@@ -1,0 +1,193 @@
+{"code": 200, "msg": "success",
+  "data": {
+    "summary" : [
+      { "name": "sum", "data": 380},
+      { "name": "health", "data": 98}
+    ],
+
+    "availability":[
+      { "name": "cpu", "useData": 0.5},
+      { "name": "storage", "useData": 0.7},
+      { "name": "disk", "useData": 0.2}
+    ],
+
+    "appVisitX": ["1:00", "2:00", "3:00", "4:00", "5:00", "6:00", "7:00",
+      "8:00", "9:00", "10:00", "11:00", "12:00"],
+
+    "appVisitBPM": [ 100, 200, 233, 55, 67, 888, 256, 778, 901, 503, 67, 201],
+
+    "appVisitDocument": [ 700, 150, 833, 155, 767, 88, 756, 178, 601, 53, 671, 701],
+
+    "currentRequest" : 380,
+
+    "circle": [
+      { "application": "邮件", "value": 0},
+      { "application": "档案", "value": 1},
+      { "application": "B组", "value": 2},
+      { "application": "A组", "value": 1},
+      { "application": "BPM", "value": 2},
+      { "application": "C组", "value": 0}
+    ],
+
+    "safety": [
+      { "name": "handle", "value": 1},
+      { "name": "configuration", "value": 0},
+      { "name": "violentBreak", "value": 10},
+      { "name": "weakPassword", "value": 8}
+    ],
+    "regionData" :[
+      {
+        "responseTime":18.16,
+        "available":60.1,
+        "name":"山东",
+        "value":3
+      },
+      {
+        "responseTime":51.8,
+        "available":71,
+        "name":"福建",
+        "value":1
+      },
+      {
+        "responseTime":51.8,
+        "available":11.2,
+        "name":"河南",
+        "value":2
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"河北",
+        "value":3
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"重庆",
+        "value":1
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"湖南",
+        "value":2
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"湖北",
+        "value":1
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"江西",
+        "value":2
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"海南",
+        "value":3
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"西藏",
+        "value":3
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"上海",
+        "value":3
+      },{
+        "responseTime":51.8,
+        "available":0,
+        "name":"宁夏",
+        "value":3
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"山西",
+        "value":2
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"甘肃",
+        "value":1
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"四川",
+        "value":1
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"广西",
+        "value":2
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"浙江",
+        "value":3
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"云南",
+        "value":3
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"内蒙古",
+        "value":3
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"辽宁",
+        "value":3
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"广东",
+        "value":3
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"青海",
+        "value":3
+      },
+      {
+        "responseTime":51.8,
+        "available":0,
+        "name":"北京",
+        "value":3
+      }
+    ],
+    "alarm": [
+      { "time": "1:00", "normal": 100, "heavy":110, "serious": 200},
+      { "time": "2:00", "normal": 200, "heavy":200, "serious": 120},
+      { "time": "3:00", "normal": 50, "heavy":310, "serious": 230},
+      { "time": "4:00", "normal": 88, "heavy":350, "serious": 150},
+      { "time": "5:00", "normal": 300, "heavy":210, "serious": 210},
+      { "time": "6:00", "normal": 50, "heavy":33, "serious": 80},
+      { "time": "7:00", "normal": 158, "heavy":77, "serious": 55}
+    ],
+    "breakDown": [
+      { "level": "error", "amount": 380},
+      { "level": "health", "amount": 298},
+      { "level": "slow", "amount": 198},
+      { "level": "verySlow", "amount": 96}
+    ]
+  }
+}
