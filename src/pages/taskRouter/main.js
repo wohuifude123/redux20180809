@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 
 import { Provider } from 'react-redux'
 import store from './modules/store.js';
-import App from './modules/components/App'
+import Router from './modules/router';
 
 console.log("initial state: ", store.getState());
 
@@ -14,6 +14,6 @@ const element = document.getElementById('taskRouter');
 
 ReactDOM.render(
 	<Provider store={store}>
-		<App />
+		<Router />
 	</Provider>,element
 );

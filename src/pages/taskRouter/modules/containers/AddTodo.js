@@ -3,8 +3,8 @@ import { connect } from 'react-redux'
 import { addToCart } from '../actions/cart-actions'
 
 let AddTodo = ({ dispatch }) => {
-	let input
-
+	let input = '';
+	
 	return (
 		<div>
 			<form
@@ -13,17 +13,18 @@ let AddTodo = ({ dispatch }) => {
 					if (!input.value.trim()) {
 						return
 					}
-					dispatch(addToCart('Coffee 500gm', 1, 250))
+					dispatch(addToCart(input.value, 1, 250))
 					input.value = ''
 				}}
 			>
 				<input
 					ref={node => {
+						console.log('输入的 value ==', node )
 						input = node
 					}}
 				/>
 				<button type="submit">
-					Add Todo
+					添加购物数据
 				</button>
 			</form>
 		</div>
